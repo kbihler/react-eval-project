@@ -5,7 +5,8 @@ import {Router, Switch, Route} from 'react-router-dom'
 import history from 'services/history'
 import App from './views/App'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import IconLabelButtons from './views/App/MuiButton'
+import IconLabelButtons from './components/Buttons/MuiButton'
+import LegendDonut from './components/D3/LineGraph'
 
 export default class ApplicationNode extends Component {
   static propTypes = {
@@ -28,6 +29,7 @@ export default class ApplicationNode extends Component {
             </Router>
           </Provider>
           <IconLabelButtons />
+          <LegendDonut />
         </div>
       </MuiThemeProvider>
     )

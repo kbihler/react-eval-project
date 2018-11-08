@@ -5,10 +5,13 @@
   "dependencies": {
     "@material-ui/core": "3.4.0",
     "@material-ui/icons": "3.0.1",
+    "@nivo/circle-packing": "0.51.0",
+    "britecharts-react": "0.4.1",
     "cc-react-scripts": "1.5.2",
     "d3": "5.7.0",
     "d3-scale": "2.1.2",
     "material-ui": "0.20.2",
+    "prop-types": "15.6.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
