@@ -8,6 +8,9 @@ import CloudUploadIcon from '@material-ui/icons/CloudUpload'
 import KeyboardVoiceICon from '@material-ui/icons/KeyboardVoice'
 import SendIcon from '@material-ui/icons/Send'
 import SaveIcon from '@material-ui/icons/Save'
+import { connect } from 'react-redux'
+
+
 
 const styles = theme => ({
   button: {
@@ -56,4 +59,4 @@ IconLabelButtons.propTypes = {
   classes: PropTypes.object.isRequired
 }
 
-export default withStyles(styles)(IconLabelButtons)
+export default connect(state => state.user)(withStyles(styles)(IconLabelButtons))

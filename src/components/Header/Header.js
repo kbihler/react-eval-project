@@ -10,7 +10,7 @@ export default class Header extends Component {
   render () {
     return (
       <div styleName='header'>
-        <h2>Welcome to Clear Capital React!</h2>
+        <h2>Welcome to Kyle!</h2>
       </div>
     )
   }

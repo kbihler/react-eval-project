@@ -10,6 +10,8 @@ import Header from 'components/Header'
 import {getUser} from 'actions/userActions'
 import {getRepos} from 'actions/reposActions'
 import {getEvents} from 'actions/eventsActions'
+import IconLabelButtons from '../../components/Buttons/MuiButton'
+import MySvg from '../../components/svg/Svg.js'
 
 const mapStateToProps = state => ({})
 const mapDispatchToProps = dispatch => (bindActionCreators({
@@ -38,6 +40,10 @@ export default class App extends Component {
     return (
       <div styleName='app'>
         <Header />
+        <MySvg
+          fill='violet'
+        />
+        <IconLabelButtons />
       </div>
     )
   }
